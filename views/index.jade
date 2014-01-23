@@ -4,25 +4,23 @@ body
 	.container
 		.row-fluid
 			.span12
-				.name
-					| #{title}
-		.row-fluid
-			.span12
-				.links
-					a(href='http://www.linkedin.com/in/peterjliu')
-						| linkedin
-					= ' | '
-					a(href='https://twitter.com/petersyde')
-						| twitter
-					= ' | '					
-					a(href='https://www.facebook.com/liu.peter.j')
-						| facebook
-					= ' | '
-					a(href='http://peterjliu.ca/downloads/PeterLiu_2014.pdf')
-						| CV
-					= ' | '
-					a(href='mailto:liu.peter.j@gmail.com')
-						| email
-
+				.textwrapper
+					.name
+						| #{title}
+					.links
+						a(href='http://www.linkedin.com/in/peterjliu')
+							| linkedin
+						= ' | '
+						a(href='https://twitter.com/petersyde')
+							| twitter
+						= ' | '
+						a(href='https://www.facebook.com/liu.peter.j')
+							| facebook
+						= ' | '
+						a(href='http://peterjliu.ca/downloads/PeterLiu_2014.pdf')
+							| CV
+						= ' | '
+						a(href='mailto:liu.peter.j@gmail.com')
+							| email
 
 include ../public/jade-includes/scripts
