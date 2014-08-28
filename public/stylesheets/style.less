@@ -9,6 +9,26 @@ body {
 	}
 }
 
+// @media (max-width: 768px) {
+// 	.navbar-toggle {
+// 		margin-right: 15px;
+// 	}
+// }
+
+// .navbar-toggle {
+// 	margin-right: 0px;
+// }
+
+.navbar-toggle {
+	.icon-bar {
+		height: 1px;
+	}
+
+	.icon-bar+.icon-bar {
+		margin-top: 2px;
+	}
+}
+
 body, html{
 	height:100%;
 }
@@ -24,67 +44,72 @@ body, html{
 	background-size: cover;
 }
 
-.container {
-	padding: 50px 73px;
-	margin-top: 50px;
-	text-align: left;
-	position: relative;
+.navbar-inverse {
+	background-color: #111;
+	border-color: #000;
+}
 
-	.textwrapper {
-		margin-top: 100px;
-		background: rgb(122,122,122);
-		background: rgba(122, 122, 122, 0.3);
-		border-radius: 12px;
-	}
+.site-content {
+	.container {
+		padding: 50px 15px;
+		margin-top: 50px;
+		text-align: left;
+		position: relative;
 
-	@media (max-width: 768px) {
 		.textwrapper {
-			margin-top: 50px;
+			margin-top: 100px;
+			border-radius: 12px;
 		}
-	}
 
-	a {
-		color: #fff;
-		text-decoration: underline; 
-	}
+		@media (max-width: 768px) {
+			.textwrapper {
+				margin-top: 50px;
+			}
+		}
 
-	.name {
-		font-family: 'Andada';
-		font-size: 5em;
-		color: #fff;
-		padding: 10px;
-	}
+		a {
+			color: #fff;
+			text-decoration: underline; 
+		}
 
-	@media (max-width: 768px) {
 		.name {
-			font-family: 'Andada';
+			font-family: 'Raleway';
+			font-size: 5em;
+			color: #fff;
+			padding: 10px;
+		}
+
+		@media (max-width: 768px) {
+			.name {
+				font-family: 'Raleway';
+				font-size: 2.75em;
+				color: #fff;
+			}
+		} 
+
+		.links {
+			margin-top: 50px;
+			font-family: 'Alegreya Sans';
 			font-size: 2.75em;
 			color: #fff;
+			padding: 10px;
 		}
-	} 
-
-	.links {
-		margin-top: 50px;
-		font-family: 'Alegreya Sans';
-		font-size: 2.75em;
-		color: #fff;
-		padding: 10px;
-	}
 
 
-	@media (max-width: 768px){
-		.links {
-			margin-top: 15px;
-			font-family: 'Alegreya Sans';
-			font-size: 2em;
-			color: #fff;
+		@media (max-width: 768px){
+			.links {
+				margin-top: 15px;
+				font-family: 'Alegreya Sans';
+				font-size: 2em;
+				color: #fff;
+			}
 		}
-	}
 
-	.row-fluid{
-		.span12{
-			width: auto;
+		.row-fluid{
+			.span12{
+				width: auto;
+			}
 		}
-	}
 
+	}
 }
