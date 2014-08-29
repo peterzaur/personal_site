@@ -1,42 +1,43 @@
 include ../public/jade-includes/head
 
 body
-	#nb.navbar.navbar-inverse.navbar-fixed-top
-		.container
-			.navbar-header
-				button(type="button", data-toggle="collapse", data-target=".navbar-collapse").navbar-toggle
-					span.sr-only Toggle navigation
-					span.icon-bar
-					span.icon-bar
-					span.icon-bar
-					span.icon-bar
-					span.icon-bar
-				.navbar-collapse.collapse
-					ul.nav.navbar-nav
-						li
-							a(href='http://www.linkedin.com/in/peterjliu')
-								| linkedin
-						li
-							a(href='https://twitter.com/petersyde')
-								| twitter
-						li
-							a(href='https://www.facebook.com/liu.peter.j')
-								| facebook
-						li
-							a(href='https://db.tt/rxrEMgbZ')
-								| resume
-						li
-							a(href='mailto:liu.peter.j@gmail.com')
-								| email
 	#bg.background-container
+		#nb.navbar.navbar-inverse.navbar-fixed-top
+			.container
+				.navbar-header
+					button(type="button", data-toggle="collapse", data-target=".navbar-collapse").navbar-toggle
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					.navbar-collapse.collapse
+						ul.nav.navbar-nav
+							li
+								a(href='http://www.linkedin.com/in/peterjliu')
+									| linkedin
+							li
+								a(href='https://twitter.com/petersyde')
+									| twitter
+							li
+								a(href='https://www.facebook.com/liu.peter.j')
+									| facebook
+							li
+								a(href='https://db.tt/0bUQsx59')
+									| resume
+							li
+								a(href='mailto:liu.peter.j@gmail.com')
+									| email
 		.site-content
 			.container
 				.row-fluid
 					.span12
 						.textwrapper
 							.name
-								| #{title}
-			#img.label placeholder
+								| #{title}  
+			#desc.label
+				| picture (probably) taken with an iPhone 5
 
 
 include ../public/jade-includes/scripts
