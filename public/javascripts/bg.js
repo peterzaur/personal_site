@@ -4,7 +4,7 @@ $(window).load(function() {
 	$('#bg').css({'background-image': 'url(../images/' + bg[Math.floor(Math.random() * bg.length)] + ')'});
 	
 	//Hack to load navbar and bg at once
-	$('#bg').fadeIn(50);
+	$('#bg').fadeIn(730);
 	
 	//Descriptions for bg
 	var bg_id = $('#bg').css('background-image');
